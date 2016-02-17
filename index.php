@@ -1,5 +1,5 @@
 <?php
-$conectar = mysql_connect('localhost', 'root', 'm1a2r3') or die(mysql_error());
+$conectar = mysql_connect('localhost', 'root', '') or die(mysql_error());
 if ($conectar) {
     $banco = mysql_select_db('uploads_multiplos');
 }
